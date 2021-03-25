@@ -4,7 +4,7 @@
 \alias{split.vec}
 \title{Split vector}
 \usage{
-split.vec(vec, pattern, fragPos = 1)
+\method{split}{vec}(vec, pattern, fragPos = 1)
 }
 \arguments{
 \item{vec}{vector to split}
