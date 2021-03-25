@@ -1,4 +1,4 @@
-## 2. QUICK START {#t2}
+## QUICK START
 
 # The analysis is summarized below in three simple steps, however we encourage the user to explore the extended pipeline step by step. First we need to create a reference file that contains the transposon class/superfamily for each transcript excluding those repeats that are co-transcribed with protein coding genes and resolving the overlaps between repeats. For this we can execute the following command:
 setwd("quick_start_guide/")
