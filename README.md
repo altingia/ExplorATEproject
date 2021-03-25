@@ -34,4 +34,4 @@ The pipeline requires a transposable elements annotations file and a transcripts
 
 ### User guide
 
-Check the [vignette](https://github.com/FemeniasM/ExplorATEproject/vignettes/ExplorATE_vignette_en_v1.html) and the [quick_start_guide](https://github.com/FemeniasM/ExplorATEproject/quick_start_guide) with simulated data
+Check the [vignettes](https://github.com/FemeniasM/ExplorATEproject/tree/master/vignettes) and the [quick_start_guide](https://github.com/FemeniasM/ExplorATEproject/tree/master/quick_start_guide) with simulated data
