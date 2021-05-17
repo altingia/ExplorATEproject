@@ -15,10 +15,10 @@ run.salmon <- function(index, decoys, salmon_path="salmon", kmer, lib_dir,pe_se=
   if(dir.exists(paste0(pwd,"/salmon_out"))==F){
       dir.create(paste0(pwd,"/salmon_out"))
     }
-dir.create(paste0(pwd,index))
+dir.create(paste0(pwd,"/",index))
   if(pe_se=="pe"){
   system(
-    paste(paste0("INDEX_PATH=",paste0(pwd,index),";"),
+    paste(paste0("INDEX_PATH=",paste0(pwd,"/",index),";"),
           paste0("DECOYS_PATH=",normalizePath(decoys),";"),
           paste0("READS_PATH=",normalizePath(lib_dir),";"),
           paste0("TRME_PATH=",normalizePath(trme),";"),
@@ -43,7 +43,7 @@ dir.create(paste0(pwd,index))
   )
   }else{
     system(
-    paste(paste0("INDEX_PATH=",paste0(pwd,index),";"),
+    paste(paste0("INDEX_PATH=",paste0(pwd,"/",index),";"),
           paste0("DECOYS_PATH=",normalizePath(decoys),";"),
           paste0("READS_PATH=",normalizePath(lib_dir),";"),
           paste0("TRME_PATH=",normalizePath(trme),";"),
