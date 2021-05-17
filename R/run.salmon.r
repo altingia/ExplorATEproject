@@ -15,7 +15,7 @@ run.salmon <- function(index, decoys, salmon_path="salmon", kmer, lib_dir,pe_se=
   if(dir.exists(paste0(pwd,"/salmon_out"))==F){
       dir.create(paste0(pwd,"/salmon_out"))
     }
-dir.create(paste0(pwd,"/salmon_out/",index))
+dir.create(paste0(pwd,index))
   if(pe_se=="pe"){
   system(
     paste(paste0("INDEX_PATH=",paste0(pwd,index),";"),
